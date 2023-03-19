@@ -10,25 +10,27 @@
 // alert(car.color)
 // console.log (car)
 
-// Завдання 2
+// // Завдання 2
 
-const salaries = {
-    fronted: 12000,
-    backend: 10000,
-    designer: 8000,
-}; 
-function funSum(objus){
-    let sum = 0
-        for ( const key in Object.values(objus)) {
-        sum +=key
-    }   
-    return sum
-}; 
- console.log(funSum(salaries)) ; 
- salaries.total()
-salaries.manager = 5000
- salaries.total()
-
+// const salaries = {
+//     fronted: 12000,
+//     backend: 10000,
+//     designer: 8000,
+//     dayPay() {
+//         alert('We must pay salary on Tuesday!');
+//     },
+//     total(){
+//         let sum = 0;
+//         for (const key in salaries) {
+//             if( Number(this[key]))
+//             sum += this[key];
+//             console.log(sum)
+//         }
+//     }
+// }
+// salaries.total();
+// salaries.manager = 5000;
+// salaries.total()
 
 // // // Завдання 3
 // function Lego(brand, system, cost) {
