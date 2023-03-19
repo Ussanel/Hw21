@@ -1,17 +1,16 @@
 // // Завдання 1
-// const car={
-//     model: 'audi',
-//     year: 2000,
-//     color: 'white'
-// }
-// let key = prompt('What color do you want?', 'color')
-// car.color = key;
-// car.type = 'electro'
-// alert(car.color)
-// console.log (car)
+const car={
+    model: 'audi',
+    year: 2000,
+    color: 'white'
+}
+let key = prompt('What color do you want?', 'color')
+car.color = key;
+car.type = 'electro'
+alert(car.color)
+console.log (car)
 
 // // Завдання 2
-
 // const salaries = {
 //     fronted: 12000,
 //     backend: 10000,
